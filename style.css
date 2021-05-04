@@ -1,0 +1,56 @@
+
+/*div{
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    display: block;
+}*/
+
+.pokemon{
+    display: inline-block;
+    text-align: center;
+}
+
+.pokemon img{
+    display: block;
+}
+ .pokemon:hover{
+     color: green;
+ }
+
+ h1{
+     text-align: center;
+     color:brown;
+ }
+
+ #containers {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: orange;
+	letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: orange;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: orange; 
+	}
+}
